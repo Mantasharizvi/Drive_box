@@ -114,6 +114,7 @@ Open a **new terminal tab** in VS Code :
 
 
 cd frontend
+
 npm install
 
 
@@ -126,7 +127,9 @@ To create a demo user and sample folders:
 
 
 cd database
+
 npm install
+
 node seed.js
 
 ### Step 6 — Start MongoDB
