@@ -1,0 +1,13 @@
+{
+  "name": "drivebox-database",
+  "version": "1.0.0",
+  "description": "DriveBox database seed script",
+  "scripts": {
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "mongoose": "^8.0.3"
+  }
+}
