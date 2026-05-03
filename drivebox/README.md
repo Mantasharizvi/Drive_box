@@ -13,39 +13,6 @@ A full-stack Google Drive-like web application with user authentication, nested 
 | Auth       | JWT (JSON Web Tokens)   |
 | File Store | Multer (local disk)     |
 
-
-##  Project Structure
-
-
-drivebox/
-├── backend/               ← Node.js 
-│   ├── models/            ← Mongoose models (User, Folder, Image)
-│   ├── routes/            ← API routes (auth, folders, images)
-│   ├── middleware/        ← JWT auth middleware
-│   ├── uploads/           ← Uploaded image files
-│   ├── server.js          ← Entry point
-│   ├── .env               ← Environment variables
-│   └── package.json
-│
-├── frontend/              ← React.js application
-│   ├── public/
-│   └── src/
-│       ├── components/
-│       │   ├── Auth/      ← Login, Register
-│       │   ├── Dashboard/ ← Main drive view
-│       │   ├── Folder/    ← FolderCard component
-│       │   └── Image/     ← ImageCard, UploadDialog
-│       ├── context/       ← AuthContext (global state)
-│       ├── utils/         ← Helper functions
-│       ├── App.js
-│       └── index.js
-│
-└── database/              ← MongoDB seed script & schema docs
-    ├── seed.js            ← Creates demo user & sample folders
-    ├── SCHEMA.md          ← Database schema documentation
-    └── package.json
-
-
 ##  Prerequisites
 
 Before starting, make sure you have installed:
