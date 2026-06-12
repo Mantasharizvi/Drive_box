@@ -36,7 +36,7 @@ Before starting, make sure you have installed:
 
 ##  Setup & Run in VS Code
 
-### Step 1 — Open Project in VS Code
+ Step 1 — Open Project in VS Code
 
 ```
 File → Open Folder → select the "drivebox" folder
@@ -47,7 +47,7 @@ Or from terminal:
 code drivebox
 
 
-### Step 2 — Install Backend Dependencies
+ Step 2 — Install Backend Dependencies
 
 Open the  terminal in VS Code then:
 
@@ -60,7 +60,7 @@ This installs: express, mongoose, bcryptjs, jsonwebtoken, multer, cors, dotenv, 
 
 
 
-### Step 3 — Configure Environment Variables
+ Step 3 — Configure Environment Variables
 
 The `.env` file is already created at `backend/.env` with default values:
 
@@ -75,7 +75,7 @@ JWT_EXPIRE=7d
 
 ---
 
-### Step 4 — Install Frontend Dependencies
+ Step 4 — Install Frontend Dependencies
 
 Open a **new terminal tab** in VS Code :
 
@@ -88,7 +88,7 @@ npm install
 This installs: react, react-router-dom, @mui/material, @mui/icons-material, axios, etc.
 
 
-### Step 5 — Setup Database (Optional but Recommended)
+ Step 5 — Setup Database (Optional but Recommended)
 
 To create a demo user and sample folders:
 
@@ -99,11 +99,11 @@ npm install
 
 node seed.js
 
-### Step 6 — Start MongoDB
+ Step 6 — Start MongoDB
 
 Make sure MongoDB is running On system.
 
-### Step 7 — Start the Backend Server
+Step 7 — Start the Backend Server
 
 In your terminal (from `backend/` folder):
 
