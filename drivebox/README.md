@@ -117,7 +117,7 @@ You should see:
 > The server uses **nodemon** — it auto-restarts when you edit files.
 
 
-### Step 8 — Start the Frontend
+Step 8 — Start the Frontend
 
 Open another **new terminal tab** (from `frontend/` folder):
 
